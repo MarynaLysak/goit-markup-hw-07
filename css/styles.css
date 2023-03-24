@@ -75,19 +75,19 @@ button {
 }
 
 /* Header */
-
+/*
 .page-header .container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
-
+*/
 .page-header {
   color: var(--lolg-studio-color);
   border-bottom: 1px solid var(--footer-text-color);
 }
-
+/*
 .container {
   max-width: 1158px;
   padding: 0 15px;
