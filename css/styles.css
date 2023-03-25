@@ -81,40 +81,13 @@ button {
   padding-left: 15px;
 }
 
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 720px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
   }
 }
 
-@media screen  and (max-width: 767px) {
-  .navigation .site-nav {
-    display: none;
-  }
-  .address .site-address {
-    display: none; 
-  }
-  .mobile-menu-open {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    line-height: 0;
-  }
-}
+
 
 .page-header {
   padding-top: 24px;
@@ -126,114 +99,6 @@ button {
   justify-content: space-between;
 }
 
-
-
-@media screen and(min-width: 768px) {
-  .mobile-menu-open {
-    display: none;
-  }
-}
-/* Mobile Menu */
-
-@media screen and (max-width: 767px) {
-  
-.mobile-menu {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  max-height: 796px;
-  z-index: 7777;
-  top: 0;
-  left: 0;
-
-background: var(--main-color);
-box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-opacity: 0;
-visibility: hidden;
-pointer-events: none;
-transition: opacity 250ms linear, visibility 250ms linear;
-box-shadow: 0 0 0 100vmax rgba(117, 117, 117, 0.5);
-}
-
-.mobile-menu.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-  
-}
-
-.mobile-menu-container {
-  position: relative;
-}
-.mobile-menu-close-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  line-height: 0;
-}
-.mobile-menu-link {
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--hero-background-color);
-text-decoration: none;
-}
-
-.mobile-link {
-  margin-bottom: 40px;
-}
-.mobile-menu-container {
-  padding-top: 80px;
-  padding-left: 40px;
-}
-
-div > .site-address-menu-mobile {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding-top: 100px;
-
-}
-
-.phone-mobile-menu {
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--link-color);
-text-decoration: none;
-}
-
-.mail-mobile-menu {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--headings-color);
-}
-ul.social-media.mobile-menu-socials {
-gap: 56px;
-justify-content: start;
-}
-.mobile-menu-socials-container {
-  padding-top: 48px;
-}
-}
-
-@media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
-}
 /*
 .page-header .container {
   display: flex;
