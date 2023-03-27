@@ -778,6 +778,17 @@ letter-spacing: 0.02em;
 
 /* Scrol Portfolio */
 
+@media screen and (min-width: 480px){
+  .scrol {
+    display: inline-block;
+    flex-wrap: wrap;
+   
+  }
+
+
+  
+}
+
 .secondary-button {
   font-weight: 500;
   font-size: 16px;
@@ -811,22 +822,34 @@ letter-spacing: 0.02em;
 }
 
 /* Apps */
-
+@media screen and (min-width: 480px) {
+  .apps-image {
+    width: 100%;
+  }
+}
 h2.section-title-apps .section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--headings-color);
 }
-
+@media screen and (min-width: 768px) {
 .container-apps {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
 }
+ 
+.apps-image {
+  flex-basis: calc((100% - 48px) / 3);
+}
 
 .apps-image {
   max-width: 360px;
+}
+}
+
+.apps-image {
   background-color: var(--main-color);
   border: 1px solid var(--footer-text-color);
   transition-property: box-shadow;
@@ -841,9 +864,6 @@ h2.section-title-apps .section-title {
   color: var(--headings-color);
 }
 
-.apps-image {
-  flex-basis: calc((100% - 48px) / 3);
-}
 
 .portfolio-app-link:hover .portfolio-overlay,
 .portfolio-app-link:focus .portfolio-overlay {
@@ -1162,6 +1182,7 @@ background-color: var(--hover-color);
 }
 
 /* Footer */
+
 .logo-studio {
   color: var(--lolg-studio-color);
   width: 71px;
@@ -1208,6 +1229,7 @@ background-color: var(--hover-color);
   height: 40px;
 }
 
+
 .footer-list {
   flex-basis: calc((100% - 48px) / 4);
   width: 40px;
@@ -1229,11 +1251,27 @@ background-color: var(--hover-color);
 
 /*Footer Email Form*/
 
-.footer-form-wrapper {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 480px) {
+  .footer-social-media {
+    display: flex;
+    justify-content: center;
+  }
 
+  .footer-btn {
+    margin-top: 16px;
+  }
 }
+
+
+@media screen and (min-width: 768px){
+
+  .footer-form-wrapper {
+    display: flex;
+    align-items: center;
+  
+  }
+}
+
 
 .footer-form-disc {
   font-family: inherit;
