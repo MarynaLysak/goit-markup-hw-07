@@ -1,0 +1,103 @@
+/* Header */
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+
+  .section {
+    padding: 120px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+}
+
+@media screen and(min-width: 1200px) {
+  .site-address {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .page-header {
+    color: var(--lolg-studio-color);
+    border-bottom: 1px solid var(--footer-text-color);
+  }
+}
+/* Section2 */
+@media screen and (min-width: 1200px) {
+.item-box {
+    display: flex;
+    background-color: var(--lolg-studio-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+  
+    height: 112px;
+  }
+
+.svg-ad {
+    display: block;
+    object-fit: fill;
+    fill: currentColor;
+  }
+
+  .work-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  p.section-p {
+    margin-bottom: 72px;
+  }
+}
+
+
+/*  Section 3 */
+
+@media screen and (min-width: 1200px){
+    
+.section-discription {
+    text-align: center;
+    margin-bottom: 72px;
+    color: var(--headings-color);
+  }
+}
+
+/* Section5 Customers*/
+
+@media screen and (min-width: 1200px) {
+  .customers {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .customers-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .customers-list {
+    flex-basis: calc((100% - 120px) / 6);
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+  }
+}

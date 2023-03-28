@@ -1,0 +1,162 @@
+/* Header */
+@media screen and (min-width: 768px) {
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+  .container.page-header-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+/* Main */
+
+/* HeroSection1 */
+@media screen and (min-width: 768px) {
+  .hero-blok {
+    width: 720px;
+  }
+}
+
+/*Section2*/
+
+@media screen and (min-width: 768px) {
+    div.section-work-container {
+        width: 100%;
+       padding: 89px 21px 96px 16px;
+    }
+  .work-list {
+    display: flex;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 96px;
+  }
+
+  .work-item {
+    flex-basis: calc((100% - 24px)/2);
+  }
+
+  div.item-box {
+    display: none;
+  }
+
+  h3.team-pics-title {
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+}
+
+/*  Section 3 */
+
+@media screen and (max-width: 768px) {
+  .section.section-examp {
+    display: none;
+  }
+
+  h2.section-discription {
+    margin: 0;
+ padding-top: 96px;
+ padding-bottom: 72px;
+  }
+}
+
+/*  Section 4 */
+@media screen and (max-width: 768px) {
+ .team {
+    gap: 64px 24px;
+    justify-content: center;
+ }
+
+.team-pics {
+
+    width: calc((100% - 24px) / 2);
+}
+h3.team-title-tab {
+    display: flex;
+    justify-content: center;
+}
+}
+
+/* Section5 Customers*/
+
+@media screen and (max-width: 768px) {
+   
+   .customers-container {
+   padding-left: 108px;
+   padding-right: 108px;
+   padding-top: 72px;
+    margin: 0;
+   }
+    .customers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+   }
+    .customers-list {
+    flex-basis: calc((100% - 48px) / 3);
+    width: 168px;
+    }
+}
+
+/* Scrol Portfolio */
+@media screen and (min-width: 768px) {
+  .scrol {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+}
+
+/*  Portfolio Apps */
+
+@media screen and (min-width: 768px) {
+  .container-apps {
+    display: flex;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+  }
+
+  .apps-image {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .apps-image {
+    max-width: 360px;
+  }
+}
+
+/*Footer Email Form*/
+
+@media screen and (min-width: 768px) {
+  
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+    .footer-form-wrapper {
+    display: flex;
+    align-items: center;
+
+
+  }
+}
