@@ -19,8 +19,8 @@
   }
 }
 
-@media screen and(min-width: 1200px) {
-  .site-address {
+@media screen and (min-width: 1200px) {
+  ul.site-address {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -32,6 +32,14 @@
     color: var(--lolg-studio-color);
     border-bottom: 1px solid var(--footer-text-color);
   }
+
+  @media screen  and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/people-office-desctop@2x.jpg);
+  }
+}
 }
 /* Section2 */
 @media screen and (min-width: 1200px) {
@@ -72,6 +80,13 @@
     text-align: center;
     margin-bottom: 72px;
     color: var(--headings-color);
+  }
+
+  
+}
+@media screen and (max-width: 1199px) {
+  .section.section-examp {
+    display: visibility;
   }
 }
 

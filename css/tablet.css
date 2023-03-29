@@ -29,6 +29,14 @@
   .hero-blok {
     width: 720px;
   }
+
+  @media screen  and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/OfficeTablet@2x.jpg);
+  }
+}
 }
 
 /*Section2*/
@@ -63,7 +71,7 @@
 
 /*  Section 3 */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .section.section-examp {
     display: none;
   }
@@ -147,7 +155,7 @@ h3.team-title-tab {
 @media screen and (min-width: 768px) {
     div.container {
         margin: 0;
-        padding: 96px 24px 72px 108px;
+       
     }
   
   .footer-wrap {

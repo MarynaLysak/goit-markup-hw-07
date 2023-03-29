@@ -21,6 +21,14 @@
     padding: 0;
     line-height: 0;
   }
+
+  @media screen  and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/OfficeMobile@2x.jpg);
+  }
+}
 }
 
 /* Mobile Menu */
