@@ -150,6 +150,14 @@ h3.team-pics-title.mobile-titel-team {
     padding-bottom: 120px;
   }
 }
+/*Portfolio*/
+
+@media screen and (min-width: 1200px) {
+  .mobile-scrol {
+    padding-top: 90px;
+    padding-bottom: 75px;
+  }
+}
 
  /*Footer*/
 
@@ -172,7 +180,7 @@ p.footer-form-disc {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  padding: 100px 0;
+  padding: 100px 30px;
 }
 
 div.footer-wrap {

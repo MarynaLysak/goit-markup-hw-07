@@ -133,11 +133,15 @@ h3.team-title-tab {
     justify-content: center;
     margin-bottom: 64px 91px;
   }
-   
+}
+@media screen and (max-width: 768px),
+screen and (max-width: 1199px) {
+
   .scrol-btn {
     flex-basis: calc((100% - 96px) / 5);
   }
 }
+
 
 /*  Portfolio Apps */
 
