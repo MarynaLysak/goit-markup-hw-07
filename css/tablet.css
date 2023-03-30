@@ -34,7 +34,10 @@
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/OfficeTablet@2x.jpg);
+    background-image:   linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),url(../images/OfficeTablet@2x.jpg);
   }
 }
 }
@@ -128,7 +131,11 @@ h3.team-title-tab {
     gap: 24px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 72px;
+    margin-bottom: 64px 91px;
+  }
+   
+  .scrol-btn {
+    flex-basis: calc((100% - 96px) / 5);
   }
 }
 
@@ -142,7 +149,7 @@ h3.team-title-tab {
   }
 
   .apps-image {
-    flex-basis: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   .apps-image {
@@ -188,3 +195,6 @@ h3.team-title-tab {
     padding-left: 15px;
   }
 }
+
+/*Portfolio Scroll*/
+

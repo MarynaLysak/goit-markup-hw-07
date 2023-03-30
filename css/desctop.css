@@ -1,9 +1,9 @@
 /* Header */
 
 @media screen and (min-width: 1200px) {
-  .container {
+  /*.container {
     width: 1200px;
-  }
+  }*/
 
   .section {
     padding: 120px 0;
@@ -37,13 +37,18 @@
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/people-office-desctop@2x.jpg);
+  
+    background-image:   linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-desctop@2x.jpg);
   }
 }
 }
 /* Section2 */
 @media screen and (min-width: 1200px) {
-.item-box {
+div.item-box {
     display: flex;
     background-color: var(--lolg-studio-color);
     border-radius: 4px;
@@ -53,6 +58,17 @@ screen and (min-resolution: 2dppx) {
   
     height: 112px;
   }
+  .work-list {
+    display: flex;
+    gap: 24px;
+  
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .work-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
 
 .svg-ad {
     display: block;
@@ -60,11 +76,7 @@ screen and (min-resolution: 2dppx) {
     fill: currentColor;
   }
 
-  .work-list {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-  }
+
 
   p.section-p {
     margin-bottom: 72px;
@@ -75,19 +87,32 @@ screen and (min-resolution: 2dppx) {
 /*  Section 3 */
 
 @media screen and (min-width: 1200px){
-    
+  
+  section.section-examp {
+    display: block;
+  }
+
 .section-discription {
     text-align: center;
     margin-bottom: 72px;
     color: var(--headings-color);
   }
 
+
+ul.examples {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+li.section-examp-pics {
+  flex-basis: calc((100% - 48px) / 3);
+}
   
 }
 @media screen and (max-width: 1199px) {
-  .section.section-examp {
-    display: visibility;
-  }
+
 }
 
 /* Section5 Customers*/
@@ -115,4 +140,18 @@ screen and (min-resolution: 2dppx) {
     width: 168px;
     height: 88px;
   }
+}
+
+
+@media screen and (min-width: 1200px) {
+.footer-form-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.page-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 }
