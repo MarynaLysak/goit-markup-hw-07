@@ -853,11 +853,6 @@ background-color: var(--hover-color);
 
 /* Footer */
 
-@media screen and (min-width: 1200px) {
-  .footer-container {
-    margin: 100px 120px;
-  }
-}
 .logo-studio {
   color: var(--lolg-studio-color);
   width: 71px;
