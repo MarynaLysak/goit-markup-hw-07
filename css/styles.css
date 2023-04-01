@@ -71,10 +71,15 @@ button {
 }
 
 /* Header */
-.container{
-  padding-right: 15px;
+.container {
+  min-width: 320px;
+  max-width: 1170px;
   padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 
 .page-header-container {
@@ -376,6 +381,7 @@ body {
   gap: 24px;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .team-pics {
