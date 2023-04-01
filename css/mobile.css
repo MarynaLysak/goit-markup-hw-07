@@ -6,7 +6,7 @@
   }
   
   .container {
-  padding-top: 24px 24px 0 24px;
+  padding: 24px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -162,6 +162,19 @@ screen and (min-resolution: 2dppx) {
 }
 
 /*Section2*/
+@media screen and (min-width:480px),
+screen and (min-width: 767px) {
+  h3.team-pics-title {
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+  }
+}
 
 @media screen and (max-width: 767px) {
   section.section-work {

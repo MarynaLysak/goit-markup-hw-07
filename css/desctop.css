@@ -56,6 +56,19 @@ div.item-box {
   
     height: 112px;
   }
+
+  h3.team-pics-title.titel-team-desc {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  
+  text-align: center;
+  letter-spacing: 0.02em;
+  }
+
   .work-list {
     display: flex;
     gap: 24px;
@@ -118,6 +131,13 @@ li.section-examp-pics {
 h3.team-pics-title.mobile-titel-team {
   display: flex;
   justify-content: center;
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 0.02em;
 }
 
 /* Section5 Customers*/

@@ -44,17 +44,19 @@ screen and (min-resolution: 2dppx) {
 
 /*Section2*/
 
-@media screen and (min-width: 768px) {
-    div.section-work-container {
+@media screen and (min-width: 768px),
+screen and (min-width: 1199px)
+ {
+    div.container.section-work-container {
         width: 100%;
-       padding: 89px 21px 96px 16px;
+       margin-bottom: 96px;
+       margin-top: 89px;
     }
   .work-list {
     display: flex;
     gap: 72px 24px;
     flex-wrap: wrap;
     width: 100%;
-    padding-top: 96px;
   }
 
   .work-item {
@@ -68,6 +70,12 @@ screen and (min-resolution: 2dppx) {
   h3.team-pics-title {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     
   }
 }
@@ -87,8 +95,17 @@ screen and (min-resolution: 2dppx) {
 }
 
 /*  Section 4 */
+@media screen and (min-width: 768px),
+ screen and (min-width: 1199px) {
+
+  .container.container-team {
+  margin-bottom: 104px;
+}
+}
+
 @media screen and (max-width: 768px) {
- .team {
+
+  .team {
     gap: 64px 24px;
     justify-content: center;
  }
@@ -166,6 +183,7 @@ screen and (max-width: 1199px) {
 @media screen and (min-width: 768px) {
     div.container {
         margin: 0;
+        padding: 24px 24px 0 24px;
        
     }
   
