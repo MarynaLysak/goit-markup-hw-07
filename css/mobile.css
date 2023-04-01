@@ -1,8 +1,12 @@
 /*Header*/
 
 @media screen and (min-width: 480px) {
-  .container {
+  .section.section-examp {
+    display: none;
+  }
   
+  .container {
+  padding: 24px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -160,6 +164,13 @@ screen and (min-resolution: 2dppx) {
   .item-box {
     display: none;
   }
+
+  .mobile-items-list {
+    margin-bottom: 72px;
+  }
+  .work-list li:last-child {
+    margin-bottom: 96px;
+  }
 }
 
 /*Section4*/
@@ -182,16 +193,22 @@ screen and (min-resolution: 2dppx) {
     text-align: center;
     letter-spacing: 0.02em;
   }
+
+  .team li:last-child {
+    margin-bottom: 128px;
+  }
 }
 
 /* Section5 Customers*/
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .section-customers {
     padding-top: 96px;
     padding-bottom: 96px;
   }
-
+div.customers-container {
+  padding: 0 16px;
+}
   .customers {
     display: flex;
     flex-wrap: wrap;
