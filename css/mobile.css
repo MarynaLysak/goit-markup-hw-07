@@ -5,10 +5,8 @@
     display: none;
   }
   
-  .container {
-  padding: 24px;
-    margin-left: auto;
-    margin-right: auto;
+  .page-header {
+    padding: 24px;
   }
 }
 
@@ -49,6 +47,7 @@ screen and (min-resolution: 2dppx) {
     z-index: 7777;
     top: 0;
     left: 0;
+    padding: 80px 40px 40px;
 
     background: var(--main-color);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -81,7 +80,6 @@ screen and (min-resolution: 2dppx) {
     top: 24px;
     right: 24px;
     background-color: transparent;
-    border: none;
     padding: 0;
     line-height: 0;
   }
@@ -108,7 +106,7 @@ screen and (min-resolution: 2dppx) {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-top: 100px;
+    padding-top: 200px;
   }
 
   .phone-mobile-menu {
@@ -131,12 +129,9 @@ screen and (min-resolution: 2dppx) {
     color: var(--headings-color);
   }
   ul.social-media.mobile-menu-socials {
-    gap: 56px;
     justify-content: start;
   }
-  .mobile-menu-socials-container {
-    padding-top: 48px;
-  }
+  
 }
 
 /*Hero Mobile*/
@@ -174,13 +169,15 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
   }
+
+  .work-list {
+    padding: 96px 0 15px;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
-  section.section-work {
-    padding-top: 96px;
-  }
-
+ 
   .item-box {
     display: none;
   }
