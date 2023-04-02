@@ -169,6 +169,9 @@ screen and (max-width: 1199px) {
     flex-wrap: wrap;
   }
 
+  h3.team-pics-title {
+    
+  }
   .apps-image {
     flex-basis: calc((100% - 24px) / 2);
   }
@@ -176,6 +179,7 @@ screen and (max-width: 1199px) {
   .apps-image {
     max-width: 360px;
   }
+
 }
 
 /*Footer Email Form*/
@@ -195,6 +199,7 @@ screen and (max-width: 1199px) {
   }
   div.social-media-wrapper {
     padding: 0;
+    margin-left: 24px;
   }
   
     .footer-form-wrapper {
@@ -214,8 +219,11 @@ screen and (max-width: 1199px) {
 
   form.input-wrapper {
     padding-top: 0;
-    padding-left: 15px;
+    padding-left: 80px;
   }
+  .footer-section-title.footer-form-disc {
+    display: block;
+   }
 }
 
 /*Portfolio Scroll*/

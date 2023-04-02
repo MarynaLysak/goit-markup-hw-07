@@ -167,7 +167,7 @@ line-height: 40px;
 
 text-align: center;
 letter-spacing: 0.02em;
-text-transform: capitalize;
+
   }
 
   .work-list {
@@ -204,7 +204,7 @@ text-transform: capitalize;
 
   h3.mobile-titel-team {
     font-weight: 500;
-    font-size: 20px;
+   
     line-height: 1.2;
 
     text-align: center;
@@ -248,6 +248,15 @@ div.customers-container {
   .mobile-scrol {
     padding-bottom: 48px;
   }
+  picture {
+    width: 100%;
+    height: auto;
+  }
+
+.apps-content {
+  padding: 16px;
+}
+
 }
 
 /* Apps */
