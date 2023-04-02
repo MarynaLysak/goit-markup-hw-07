@@ -254,7 +254,7 @@ div.customers-container {
   }
 
 .apps-content {
-  padding: 16px;
+  padding: 32px 0 32px 16px;
 }
 
 }

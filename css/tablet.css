@@ -75,7 +75,6 @@ screen and (min-width: 1199px)
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     
   }
 }
@@ -169,9 +168,6 @@ screen and (max-width: 1199px) {
     flex-wrap: wrap;
   }
 
-  h3.team-pics-title {
-    
-  }
   .apps-image {
     flex-basis: calc((100% - 24px) / 2);
   }

@@ -523,8 +523,8 @@ h2.section-title-apps .section-title {
 }
 
 .section-title-apps {
+  font-weight: 500;
   margin-bottom: 8px;
-  margin-top: 32px;
   color: var(--headings-color);
 }
 
