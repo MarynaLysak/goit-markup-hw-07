@@ -47,10 +47,7 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-width: 768px),
 screen and (min-width: 1199px)
  {
-    div.container.section-work-container {
-        width: 100%;
-       margin-bottom: 96px;
-    }
+    
 
   .work-list {
     display: flex;
@@ -76,6 +73,10 @@ screen and (min-width: 1199px)
     text-align: center;
     letter-spacing: 0.02em;
     
+  }
+
+  .section-work{
+    padding-top: 89px;
   }
 }
 
@@ -105,9 +106,14 @@ screen and (min-width: 1199px)
 @media screen and (max-width: 768px) {
 
   .team {
+    margin: 0;
     gap: 64px 24px;
     justify-content: center;
  }
+
+ .team li:last-child {
+  margin-bottom: 0;
+}
 
 .team-pics {
 

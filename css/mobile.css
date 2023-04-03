@@ -1,13 +1,17 @@
 /*Header*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
+  .page-header {
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width: 320px) {
   .section.section-examp {
     display: none;
   }
   
-  .page-header {
-    padding: 24px;
-  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -131,7 +135,9 @@ screen and (min-resolution: 2dppx) {
   ul.social-media.mobile-menu-socials {
     justify-content: start;
   }
-  
+   .mobile-menu-socials {
+    padding-top: 40px;
+   }
 }
 
 /*Hero Mobile*/
@@ -154,10 +160,11 @@ screen and (min-resolution: 2dppx) {
   div.item-box {
     display: none;
   }
+
 }
 
 /*Section2*/
-@media screen and (min-width:480px),
+@media screen and (min-width:320px),
 screen and (min-width: 767px) {
   h3.team-pics-title {
     font-style: normal;
@@ -170,8 +177,8 @@ letter-spacing: 0.02em;
 
   }
 
-  .work-list {
-    padding: 96px 0 15px;
+  .section-work{
+    padding-top: 96px;
   }
 
 }
@@ -214,11 +221,15 @@ letter-spacing: 0.02em;
   .team li:last-child {
     margin-bottom: 128px;
   }
+
+  .container.container-team {
+    margin-bottom: 128px;
+  }
 }
 
 /* Section5 Customers*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .section-customers {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -239,7 +250,7 @@ div.customers-container {
 
 /* Scrol Portfolio*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .scrol {
     display: flex;
     flex-wrap: wrap;
@@ -261,7 +272,7 @@ div.customers-container {
 
 /* Apps */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .apps-image {
     width: 100%;
     margin-bottom: 48px;
@@ -270,7 +281,7 @@ div.customers-container {
 
 /* Footer */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-container {
     display: flex;
     flex-direction: column;
@@ -295,7 +306,7 @@ div.customers-container {
 
 /*Footer Email Form*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-social-media {
     display: flex;
     justify-content: center;
